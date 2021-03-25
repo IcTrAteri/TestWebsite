@@ -10,6 +10,13 @@ h1,h2,h3,h4,h5, button, .amiibo-name{
     background-color: rgb(10, 10, 10);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(0, 0, 0, 0.5) 25px, rgba(11, 12, 12, 0.5) 40px);
 }
+.bflotante{
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    margin-top: -20%;
+}
+
 #ribbon::after{
     content: '';
     background-color: transparent;
@@ -42,7 +49,7 @@ h1,h2,h3,h4,h5, button, .amiibo-name{
     box-shadow: 0 0 10px rgba(7, 6, 6, 0.5);
 }
 .myButton {
-	box-shadow:inset 0px 1px 7px -29px #3e7327;
+	box-shadow:inset 0  px 1px 7px -29px #3e7327;
 	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
 	background-color:#77b55a;
 	border-radius:11px;
@@ -62,7 +69,7 @@ h1,h2,h3,h4,h5, button, .amiibo-name{
 	background-color:#72b352;
 }
 .myButton:active {
-	position:relative;
+	position:absolute;
 	top:1px;
 }
 
